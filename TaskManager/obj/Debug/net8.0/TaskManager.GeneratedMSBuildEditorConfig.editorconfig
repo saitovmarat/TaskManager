@@ -1,0 +1,39 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TaskManager
+build_property.RootNamespace = TaskManager
+build_property.ProjectDir = /home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/Views/TaskController/CreateTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0NvbnRyb2xsZXIvQ3JlYXRlVGFzay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/Views/TaskController/DeleteTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0NvbnRyb2xsZXIvRGVsZXRlVGFzay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/Views/TaskController/GetAllTasks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0NvbnRyb2xsZXIvR2V0QWxsVGFza3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/Views/TaskController/GetTaskById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0NvbnRyb2xsZXIvR2V0VGFza0J5SWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/Views/TaskController/UpdateTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0NvbnRyb2xsZXIvVXBkYXRlVGFzay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
