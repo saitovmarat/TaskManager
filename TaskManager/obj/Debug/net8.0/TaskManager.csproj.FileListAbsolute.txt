@@ -69,3 +69,15 @@
 /home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/obj/Debug/net8.0/TaskManager.pdb
 /home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/obj/Debug/net8.0/TaskManager.genruntimeconfig.cache
 /home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/obj/Debug/net8.0/ref/TaskManager.dll
+/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/bin/Debug/net8.0/System.Security.Permissions.dll
+/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/bin/Debug/net8.0/MailKit.dll
+/home/ubuntu/Projects/BarsGroup/TaskManager/TaskManager/bin/Debug/net8.0/MimeKit.dll

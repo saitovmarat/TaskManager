@@ -1,37 +1,40 @@
-using TaskManager.Controllers;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers().AddApplicationPart(typeof(TaskController).Assembly);
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Добавление Логирования
+builder.Services.AddLogging(loggingBuilder =>
+{
+    loggingBuilder.AddConsole();
+    loggingBuilder.AddDebug();
+});
+
+// Добавление Аунтефикации
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme,
+        options => builder.Configuration.Bind("JwtSettings", options))
+    .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme,
+        options => builder.Configuration.Bind("CookieSettings", options));
+
+
 var app = builder.Build();
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.UseRouting();
 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 app.UseHttpsRedirection();
-app.UseRouting();
-
-
-// Working 
-var tasks = new[]
-{
-    new TaskManager.Models.Task("Task 1", false, "Description for Task 1", 1),
-    new TaskManager.Models.Task("Task 2", false, "Description for Task 2", 2),
-    new TaskManager.Models.Task("Task 3", false, "Description for Task 3", 3),
-    new TaskManager.Models.Task("Task 4", false, "Description for Task 4", 4),
-    new TaskManager.Models.Task("Task 5", false, "Description for Task 5", 5)
-};
-
-app.MapGet("/tasks", () =>
-{
-    return tasks;
-})
-.WithName("GetTasks")
-.WithOpenApi();
-
+app.MapControllers();
 app.Run();
+
